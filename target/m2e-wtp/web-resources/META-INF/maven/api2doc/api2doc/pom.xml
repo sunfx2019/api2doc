@@ -19,6 +19,7 @@
 		<tomcat7.plugin.version>2.2</tomcat7.plugin.version>
 		<!-- contextPath -->
 		<context.path>/api2doc</context.path>
+		<api2doc.version>1.0.2</api2doc.version>
 	</properties>
 
 	<dependencies>
@@ -121,6 +122,12 @@
 			<version>7.0</version>
 			<scope>provided</scope>
 		</dependency>
+		
+		<dependency>
+            <groupId>com.github.terran4j</groupId>
+            <artifactId>terran4j-commons-api2doc</artifactId>
+            <version>${api2doc.version}</version>
+        </dependency>
 
 	</dependencies>
 
