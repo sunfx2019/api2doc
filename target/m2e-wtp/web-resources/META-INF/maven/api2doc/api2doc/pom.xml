@@ -205,7 +205,9 @@
 								</resource>
 							</resources>
 						</configuration>
+						<!--  
 						<inherited></inherited>
+						-->
 					</execution>
 				</executions>
 			</plugin>
