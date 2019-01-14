@@ -155,17 +155,7 @@
 		<defaultGoal>compile</defaultGoal>
 		<resources>
 			<resource>
-				<directory>src/main/resources</directory>
-				<!-- 排除该路径下的文件夹 -->
-				<excludes>
-					<exclude>dev/**</exclude>
-					<exclude>test/**</exclude>
-					<exclude>product/**</exclude>
-				</excludes>
-				<filtering>true</filtering>
-			</resource>
-			<resource>
-                <directory>src/main/resources/${profiles.active}</directory>
+                <directory>src/main/resources/${package.environment}</directory>
             </resource>
 		</resources>
 		<plugins>
